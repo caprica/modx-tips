@@ -66,7 +66,7 @@ Depending on how you want to operate, on the `Advanced` settings, set the `MIDI 
 
 If you want to record multiple parts to mutiple separate MIDI channels, each one becoming a separate track inside Reaper, leave this setting at `Multi`.
 
-![MODX+ MIDI I/O Mode: Multi](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-io-mode-single.png "MODX+ MIDI I/O Mode: Multi")
+![MODX+ MIDI I/O Mode: Multi](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-io-mode-multi.png "MODX+ MIDI I/O Mode: Multi")
 
 Turn off the `Direct Monitor`:
 
