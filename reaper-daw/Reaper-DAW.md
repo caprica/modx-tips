@@ -60,7 +60,7 @@ Find the `MIDI I/O` settings and ensure that the `Midi Sync` option is set to `M
 
 ![MODX+ MIDI SYNC](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-sync.png "MODX+ MIDI Sync")
 
-Depending on how you want to operate, on the `Advanced` settings, set the `MIDI I/O Mode' to `Single` so that all parts are sent on the same channel. This can save you having to map parts to channels and is simpler if you e.g. record one part at a time.
+Depending on how you want to operate, on the `Advanced` settings, set the `MIDI I/O Mode` to `Single` so that all parts are sent on the same channel. This can save you having to map parts to channels and is simpler if you record one part at a time.
 
 ![MODX+ MIDI I/O Mode: Single](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-io-mode-single.png "MODX+ MIDI I/O Mode: Single")
 
@@ -68,6 +68,6 @@ If you want to record multiple parts to mutiple separate MIDI channels, each one
 
 ![MODX+ MIDI I/O Mode: Multi](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-io-mode-single.png "MODX+ MIDI I/O Mode: Multi")
 
-Turn off the direct monitor:
+Turn off the `Direct Monitor`:
 
 ![MODX+ MIDI Direct Monitor: Off](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-direct-monitor.png "MODX+ Direct Monitor: Off")
