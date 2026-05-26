@@ -22,7 +22,7 @@ In the preferences tree view on the left, find the `Audio` group and within that
 
 For the audio system, choose `ASIO`.
 
-For the ASIO driver, choose `Yamaha Steinberg USB ASIO`.
+For the `ASIO` driver, choose `Yamaha Steinberg USB ASIO`.
 
 Make sure `Enable inputs` is ticked.
 
