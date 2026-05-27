@@ -56,11 +56,15 @@ Tap `Quick Setup 1: MIDI Rec on DAW`.
 
 ![MODX+ MIDI REC ON DAW](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-rec-on-daw.png "MODX+ MIDI Record on DAW Quick Settings")
 
-Find the `MIDI I/O` settings and ensure that the `Midi Sync` option is set to `MIDI` (so that the MODX+ will use Reaper's clock).
+Alternatively, if you want individual notes of an arpeggio to be set, tap `Quick Setup 2: Arp Rec on DAW`.
 
-![MODX+ MIDI SYNC](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-sync.png "MODX+ MIDI Sync")
+![MODX+ ARP REC ON DAW](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-arp-rec-on-daw.png "MODX+ ARP Record on DAW Quick Settings")
 
-Depending on how you want to operate, on the `Advanced` settings, set the `MIDI I/O Mode` to `Single` so that all parts are sent on the same channel. This can save you having to map parts to channels and is simpler if you record one part at a time.
+Find the `MIDI I/O` settings and ensure (it will be by default) that the `Midi Sync` option is set to `MIDI` (so that the MODX+ will use Reaper's clock).
+
+![MODX+ MIDI SYNC](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-sync-midi.png "MODX+ MIDI Sync")
+
+Depending on how you want to operate, on the `Advanced` settings, set the `MIDI I/O Mode` to `Single` so that all parts are sent on the same channel. This can save you having to map parts to channels and tracks, and is simpler if you record one part at a time. You can choose which MIDI channel to use, but leaving it at the default is fine.
 
 ![MODX+ MIDI I/O Mode: Single](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-io-mode-single.png "MODX+ MIDI I/O Mode: Single")
 
@@ -68,6 +72,14 @@ If you want to record multiple parts to mutiple separate MIDI channels, each one
 
 ![MODX+ MIDI I/O Mode: Multi](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-io-mode-multi.png "MODX+ MIDI I/O Mode: Multi")
 
-Turn off the `Direct Monitor`:
+If you value your sanity, leave `Direct Monitor` set to `ON` despite what many guides will tell you.
 
-![MODX+ MIDI Direct Monitor: Off](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-direct-monitor.png "MODX+ Direct Monitor: Off")
+![MODX+ MIDI Direct Monitor: Off](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-direct-monitor-on.png "MODX+ Direct Monitor: On")
+
+To prevent Reaper from sending the MODX+ a start song command (which will start the internal sequencer on the MODX+), set the `Receive` option to `OFF` in the `Sync` settings:
+
+![MODX+ Sync Receive: Off](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-sync-receive-off.png "MODX+ Sync Receive: Off")
+
+## See also
+
+* [DAW Audio Return](daw-audio-return/DAW-Audio-Return.md)
