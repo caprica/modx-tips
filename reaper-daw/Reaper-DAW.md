@@ -56,7 +56,7 @@ Tap `Quick Setup 1: MIDI Rec on DAW`.
 
 ![MODX+ MIDI REC ON DAW](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-rec-on-daw.png "MODX+ MIDI Record on DAW Quick Settings")
 
-Alternatively, if you want individual notes of an arpeggio to be set, tap `Quick Setup 2: Arp Rec on DAW`.
+Alternatively, if you want individual notes of an arpeggio to be sent rather than just the activation key, tap `Quick Setup 2: Arp Rec on DAW`.
 
 ![MODX+ ARP REC ON DAW](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-arp-rec-on-daw.png "MODX+ ARP Record on DAW Quick Settings")
 
@@ -72,7 +72,7 @@ If you want to record multiple parts to mutiple separate MIDI channels, each one
 
 ![MODX+ MIDI I/O Mode: Multi](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-midi-io-mode-multi.png "MODX+ MIDI I/O Mode: Multi")
 
-If you value your sanity, leave `Direct Monitor` set to `ON` despite what many guides will tell you.
+If you value your sanity, leave `Direct Monitor` set to `ON` *despite what many guides will tell you*.
 
 ![MODX+ MIDI Direct Monitor: Off](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-direct-monitor-on.png "MODX+ Direct Monitor: On")
 
@@ -82,4 +82,4 @@ To prevent Reaper from sending the MODX+ a start song command (which will start 
 
 ## See also
 
-* [DAW Audio Return](daw-audio-return/DAW-Audio-Return.md)
+* [DAW Audio Return](../daw-audio-return/DAW-Audio-Return.md)
