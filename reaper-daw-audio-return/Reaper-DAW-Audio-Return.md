@@ -8,7 +8,9 @@ With correct routing inside the DAW track editor, you ordinarily would send this
 
 As long as the `Direct Monitor` setting remains enabled, this will work.
 
-You *must* still route the MIDI track back to the MODX+, otherwise there will be silence. This shows that the direct monitor must be monitoring the incoming MIDI from the DAW and not the outgoing MIDI from the MODX+.
+You *must* still route the MIDI track back to the MODX+, otherwise there will be silence.
+
+*This shows that the direct monitor must be monitoring the incoming MIDI from the DAW and not the outgoing MIDI from the MODX+.*
 
 Almost all guides will tell you to turn this setting off. If you do this, then you will *not* hear any sound output from the MODX+ even though it correctly receives the MIDI data from the DAW.
 
