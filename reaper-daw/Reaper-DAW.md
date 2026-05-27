@@ -76,7 +76,7 @@ If you value your sanity, leave `Direct Monitor` set to `ON` *despite what many 
 
 ![MODX+ MIDI Direct Monitor: Off](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-direct-monitor-on.png "MODX+ Direct Monitor: On")
 
-To prevent Reaper from sending the MODX+ a start song command (which will start the internal sequencer on the MODX+), set the `Receive` option to `OFF` in the `Sync` settings:
+To prevent the MODX+ from starting its internal sequencer when Reaper sends a start song MIDI command, set the `Receive` option to `OFF` in the `Sync` settings:
 
 ![MODX+ Sync Receive: Off](https://github.com/caprica/modx-tips/raw/master/reaper-daw/modx+-sync-receive-off.png "MODX+ Sync Receive: Off")
 
