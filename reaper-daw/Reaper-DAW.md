@@ -82,4 +82,4 @@ To prevent Reaper from sending the MODX+ a start song command (which will start 
 
 ## See also
 
-* [DAW Audio Return](../reaper-daw-audio-return/Reaper-DAW-Audio-Return.md)
+* [Reaper DAW Audio Return](../reaper-daw-audio-return/Reaper-DAW-Audio-Return.md)
